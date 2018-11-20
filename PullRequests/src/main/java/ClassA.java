@@ -1,4 +1,4 @@
-public class ClassA {
+public class ClassA implements InterfaceC{
 	
 	String one;
 	String two;
@@ -17,5 +17,10 @@ public class ClassA {
 	
 	public void setTwo(String two) {
 		this.two = two;
+	}
+	
+	@Override
+	public void foo() {
+	
 	}
 }
